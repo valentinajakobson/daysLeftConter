@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TimeLeftCounter</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+    <h1>Check <br> how many <br />
+      days left</h1>
+    <div class="inputs">
+      <p class="startEnd">start date</p>
+      <label for="start"></label>
+      <input type="date" name="start" id="start">
+
+      <p class="startEnd">end date</p>
+      <label for="end"></label>
+      <input type="date" name="end" id="end">
+      <br>
+
+      <p class="note">*if you want to check only business days after regular calculations (all days), please RESTART.
+
+
+    </div>
+
+    <div class="results">
+
+      <button onclick="daysLeft()">check</button>
+      <button class="restartBtn" type="button" onclick="window.location.reload()">restart</button>
+      <button class="businessdays" onclick="bdaysLeft()">only business days</button>
+
+      <p id="answer"></p>
+      <p id="countdown"></p>
+      <p id="business"></p>
+      <p id="holidays"></p>
+
+
+    </div>
+
+  </div>
+
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

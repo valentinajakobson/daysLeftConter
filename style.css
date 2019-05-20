@@ -1,0 +1,80 @@
+body {
+  background-color: lightblue;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.app {
+  height: 400px;
+  width: 800px;
+  background-color: #4286f4;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  margin-top: 140px;
+  border-radius: 20px;
+}
+
+.inputs {
+  flex: 1;
+  margin-left: 60px;
+}
+
+.results {
+  flex: 1;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+}
+
+button {
+  /* margin: 80px 0 0 100px; */
+  padding: 20px;
+  border-radius: 5px;
+  color: #444c59;
+  background-color: #f7b418;
+  font-size: 24px;
+  border: none;
+  width: 120px;
+}
+
+.restartBtn {
+  background-color: #f45561;
+}
+
+.startEnd {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+#countdown {
+  color: orange;
+  font-size: 26px;
+}
+
+.businessdays {
+  margin-top: 10px;
+  height: 70px;
+  width:240px;
+  background-color: #efe937;
+  padding: 10px;
+}
+
+.note{
+  padding-top: 40px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
