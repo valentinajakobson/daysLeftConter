@@ -78,7 +78,7 @@ function bdaysLeft(){ //implimenting a function to calculate business days left 
   let x = setInterval(function() {
 
   // Get start date and time
-  let start = new Date(document.getElementById('start').value).getTime();
+  let start = new Date().getTime();
 
   // Find the distance between start and the count down date
   let distance = countDownDate - start;
@@ -92,7 +92,6 @@ function bdaysLeft(){ //implimenting a function to calculate business days left 
   // Display the result in the element with id="countdown"
   document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-
 
 }, 1000);
 
